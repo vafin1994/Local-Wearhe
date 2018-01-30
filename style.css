@@ -1,0 +1,38 @@
+body{
+	background-image: url(https://wallpaperbrowse.com/media/images/506824.jpg);
+	background-repeat: no-repeat;
+}
+header{
+	color: orange;
+	background-color: black;
+	opacity: 0.5;
+	background-repeat: no-repeat;
+	text-align: center;
+	border-bottom: 1px solid grey;
+	margin-bottom: 10%;
+}
+header h1{
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+}
+
+@media (min-device-width: 770px){
+	header{
+		text-align: center;
+	}
+}
+@media handheld{
+	header{
+		text-align: center;
+	}
+}
+header span{
+	font-family: wide latin;
+	color: #00AFBE;
+	font-size: 25px;
+}
+content{
+	font-family: 'Rammetto One', cursive;
+	text-align: center;
+}
+
